@@ -10,7 +10,7 @@ on:
 env:
   # 修改为你的 Docker Hub 用户名/仓库名
   REGISTRY: docker.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: sunrain66/fitness-tracker
 
 jobs:
   build:
